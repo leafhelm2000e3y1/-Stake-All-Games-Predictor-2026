@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Plugins.DataStore.InMemory/1.0.0": {
+        "dependencies": {
+          "UseCases": "1.0.0"
+        },
+        "runtime": {
+          "Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "CoreBusiness/1.0.0": {
+        "runtime": {
+          "CoreBusiness.dll": {}
+        }
+      },
+      "UseCases/1.0.0": {
+        "dependencies": {
+          "CoreBusiness": "1.0.0"
+        },
+        "runtime": {
+          "UseCases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Plugins.DataStore.InMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UseCases/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
